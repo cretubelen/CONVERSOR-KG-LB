@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #f4f4f9;
+    color: #333;
+    align-items: center;
+}
+
+h1 {
+    color: #5a5a5a;
+}
+
+input, button {
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+input {
+    margin-right: 0;
+    outline: none;
+    width: 200px;
+}
+
+button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    cursor: pointer;
+    margin-left: -5px; /* para que parezca que está pegado al input */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+}
